@@ -166,6 +166,7 @@ Perfil(URL) -> https://trailblazer.me/id/sghetz
 ------------
 ### EJERCICIO 5
 ------------
+#### Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
 
 1.	Lead:        Representa un prospecto o cliente potencial.
 2.	Account:     Representa una cuenta individual, la cual puede ser una organización o persona relacionada con el negocio, i.e. clientes, competición y/o compañeros.
@@ -201,6 +202,8 @@ B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255
  <summary>R:</summary>
  <img src="https://user-images.githubusercontent.com/57366707/153903365-6b494442-1fe8-45c2-9890-05912d68a355.png">
 </details>
+
+C. Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. 
 
 ------------
 ### EJERCICIO 7
